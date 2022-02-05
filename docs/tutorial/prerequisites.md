@@ -31,7 +31,7 @@ If you have an existing site created with a prior version, you'll need to upgrad
 During installation, RedwoodJS checks if your system meets version requirements for Node and Yarn:
 
 - node: ">=14.17 <=16.x"
-- yarn: ">=1.15"
+- yarn: ">=1.15 <2.x"
 
 If your system versions do not meet both requirements, _the installation bootstrap will result in an ERROR._ To check, please run the following from your terminal command line:
 
